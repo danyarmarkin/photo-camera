@@ -118,7 +118,7 @@ class CameraViewController: UIViewController, UITextFieldDelegate  {
     }
     
     func photoTimerConf() {
-        photoTimer = Timer.scheduledTimer(withTimeInterval: 0.25, repeats: true, block: { [self](timer) in
+        photoTimer = Timer.scheduledTimer(withTimeInterval: 0.33, repeats: true, block: { [self](timer) in
             
             guard let capturePhotoOutput = self.capturePhotoOutput else { return }
             let photoSettings = AVCapturePhotoSettings()

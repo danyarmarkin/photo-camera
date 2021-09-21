@@ -35,6 +35,10 @@
 		EC89567826F5E59900E6E0B5 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89567726F5E59900E6E0B5 /* SwitchTableViewCell.swift */; };
 		EC89567A26F5E5AC00E6E0B5 /* ColorSpaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89567926F5E5AC00E6E0B5 /* ColorSpaceTableViewCell.swift */; };
 		EC89567C26F61DC500E6E0B5 /* DeviceControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89567B26F61DC500E6E0B5 /* DeviceControl.swift */; };
+		ECD3427226FA624E00F150DC /* SessionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD3427126FA624E00F150DC /* SessionCell.swift */; };
+		ECD3427426FA626000F150DC /* ActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD3427326FA626000F150DC /* ActionCell.swift */; };
+		ECD3427626FA627D00F150DC /* SessionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD3427526FA627D00F150DC /* SessionsTableViewController.swift */; };
+		ECF6210926FA68C900EFFD7A /* SessionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF6210826FA68C900EFFD7A /* SessionsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +91,10 @@
 		EC89567726F5E59900E6E0B5 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
 		EC89567926F5E5AC00E6E0B5 /* ColorSpaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSpaceTableViewCell.swift; sourceTree = "<group>"; };
 		EC89567B26F61DC500E6E0B5 /* DeviceControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceControl.swift; sourceTree = "<group>"; };
+		ECD3427126FA624E00F150DC /* SessionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCell.swift; sourceTree = "<group>"; };
+		ECD3427326FA626000F150DC /* ActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCell.swift; sourceTree = "<group>"; };
+		ECD3427526FA627D00F150DC /* SessionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsTableViewController.swift; sourceTree = "<group>"; };
+		ECF6210826FA68C900EFFD7A /* SessionsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +148,7 @@
 		EC89561426F3D2A500E6E0B5 /* photo-camera */ = {
 			isa = PBXGroup;
 			children = (
+				ECD3427026FA622900F150DC /* Sessions */,
 				EC89567B26F61DC500E6E0B5 /* DeviceControl.swift */,
 				EC89567226F5E55E00E6E0B5 /* Settings */,
 				EC89567126F542E100E6E0B5 /* Camera */,
@@ -155,6 +164,7 @@
 				EC89565D26F3F3F300E6E0B5 /* LocationViewController.swift */,
 				EC89566926F4B02300E6E0B5 /* LocalStorage.swift */,
 				EC89566B26F4BA7500E6E0B5 /* Session.swift */,
+				ECF6210826FA68C900EFFD7A /* SessionsManager.swift */,
 			);
 			path = "photo-camera";
 			sourceTree = "<group>";
@@ -216,6 +226,16 @@
 				EC89567926F5E5AC00E6E0B5 /* ColorSpaceTableViewCell.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		ECD3427026FA622900F150DC /* Sessions */ = {
+			isa = PBXGroup;
+			children = (
+				ECD3427126FA624E00F150DC /* SessionCell.swift */,
+				ECD3427326FA626000F150DC /* ActionCell.swift */,
+				ECD3427526FA627D00F150DC /* SessionsTableViewController.swift */,
+			);
+			path = Sessions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,12 +384,16 @@
 			files = (
 				EC89566C26F4BA7500E6E0B5 /* Session.swift in Sources */,
 				EC89567026F540D100E6E0B5 /* CameraSettingsObserver.swift in Sources */,
+				ECD3427226FA624E00F150DC /* SessionCell.swift in Sources */,
 				EC89566E26F537CA00E6E0B5 /* CameraSettings.swift in Sources */,
+				ECD3427626FA627D00F150DC /* SessionsTableViewController.swift in Sources */,
 				EC89567A26F5E5AC00E6E0B5 /* ColorSpaceTableViewCell.swift in Sources */,
 				EC89564626F3E76700E6E0B5 /* TabBarController.swift in Sources */,
 				EC89567C26F61DC500E6E0B5 /* DeviceControl.swift in Sources */,
+				ECF6210926FA68C900EFFD7A /* SessionsManager.swift in Sources */,
 				EC89566826F49DE800E6E0B5 /* CameraViewController.swift in Sources */,
 				EC89567826F5E59900E6E0B5 /* SwitchTableViewCell.swift in Sources */,
+				ECD3427426FA626000F150DC /* ActionCell.swift in Sources */,
 				EC89561626F3D2A500E6E0B5 /* AppDelegate.swift in Sources */,
 				EC89567426F5E57600E6E0B5 /* SettingsTableViewController.swift in Sources */,
 				EC89566A26F4B02300E6E0B5 /* LocalStorage.swift in Sources */,
